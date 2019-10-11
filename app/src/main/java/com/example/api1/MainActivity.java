@@ -13,12 +13,12 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mWatch;
+    private EditText mGoEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mGoEditText = (EditText) findViewById(R.id.goEditText);
         mWatch = (Button)findViewById(R.id.watch);
 
         mWatch.setOnClickListener(new View.OnClickListener() {
