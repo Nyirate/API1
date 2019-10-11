@@ -1,4 +1,18 @@
 package com.example.api1;
 
-public class MoviesActivity {
+import android.content.Intent;
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MoviesActivity extends AppCompatActivity {
+
+    private String[] types = new String[]{"Action", "Comedy", "Horror", "Romance", "Thriller", "Christian"};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_movies);
+
+    }
 }
