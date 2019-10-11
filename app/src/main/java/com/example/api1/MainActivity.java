@@ -4,29 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
+import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.watch)
-    Button mWatch;
+    public static final String TAG = MainActivity.class.getSimpleName();
+    private Button mWatch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+        mGoEditText = (EditText) findViewById(R.id.goEditText);
+        mWatch = (Button)findViewById(R.id.watch);
 
         mWatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String go = mGoEditText.getText().toString();
+                Log.d(TAG, go);
                 Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
                 startActivity(intent);
 
