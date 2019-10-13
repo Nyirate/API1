@@ -1,11 +1,16 @@
 package com.example.api1;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import butterknife.BindView;
@@ -22,15 +27,20 @@ public class MoviesActivity extends AppCompatActivity {
                              R.drawable. romance
     };
     private String[] types = new String[]{"Action", "Comedy ", "Thriller", "Horror", "Christian", "Romance"};
-
+    @Nullable // use annotation from support library.
+    @BindView(R.id.act)
+    ImageView img;
+   @BindView(R.id.tel)
+    TextView text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies);
         ButterKnife.bind(this);
-        MoviesActivityArrayAdapter adapter = new MoviesActivityArrayAdapter(this, android.R.layout.simple_list_item_1, images, types);
-        gridView.setAdapter(adapter);
         gridView=(GridView)findViewById(R.id.grid);
+        MoviesActivityArrayAdapter MoviesActivityArrayAdapter = new MoviesActivityArrayAdapter(MoviesActivity.this, types, images);
+        gridView.setAdapter(MoviesActivityArrayAdapter);
+
 
 
 

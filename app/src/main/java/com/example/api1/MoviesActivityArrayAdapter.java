@@ -9,13 +9,15 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+
 public class MoviesActivityArrayAdapter extends BaseAdapter {
     private Context mContext;
     private String[] mTypes;
     private  int[] images;
 
 
-    public MoviesActivityArrayAdapter(Context mContext, String[] mTypes, int[] images) {
+    public MoviesActivityArrayAdapter(@Nullable Context mContext, String[] mTypes, int[] images) {
         this.mContext = mContext;
         this.mTypes = mTypes;
         this.images = images;
@@ -43,10 +45,10 @@ public class MoviesActivityArrayAdapter extends BaseAdapter {
         if (emma == null) {
           emma = val.inflate(R.layout.activity_movies, null);
         }
-        ImageView all = (ImageView)emma.findViewById(R.id.act);
-        TextView tell = (TextView)emma.findViewById(R.id.tel);
-        all.setImageResource(images[position]);
-        tell.setText(mTypes[position]);
+        ImageView img = (ImageView)emma.findViewById(R.id.act);
+        TextView text = (TextView)emma.findViewById(R.id.tel);
+        img.setImageResource(images[position]);
+        text.setText(mTypes[position]);
 
         return emma;
     }
