@@ -20,7 +20,8 @@
         android:text="Action"
         android:textColor="@color/twin"
         android:textSize="25dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/tel"/>
 
 
 </RelativeLayout>

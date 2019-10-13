@@ -1,12 +1,13 @@
 package com.example.api1;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MoviesActivityArrayAdapter extends BaseAdapter {
     private Context mContext;
@@ -43,8 +44,11 @@ public class MoviesActivityArrayAdapter extends BaseAdapter {
           emma = val.inflate(R.layout.activity_movies, null);
         }
         ImageView all = (ImageView)emma.findViewById(R.id.act);
+        TextView tell = (TextView)emma.findViewById(R.id.tel);
+        all.setImageResource(images[position]);
+        tell.setText(mTypes[position]);
 
-        return null;
+        return emma;
     }
 
 }
