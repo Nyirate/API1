@@ -16,16 +16,16 @@
         android:textColor="@color/che"
         android:textSize="40dp"
         android:layout_weight="1"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         app:fontFamily="@font/biorhyme_extrabold" />
 
 
     <GridView
+        android:id="@+id/grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Grid"
         android:numColumns="2"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="35dp"/>
+        android:layout_marginTop="100dp"/>
+
 
 </RelativeLayout>
