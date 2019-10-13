@@ -21,14 +21,6 @@
         app:fontFamily="@font/biorhyme_extrabold"
        />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_marginLeft="15dp"-->
-<!--        android:layout_marginTop="70dp"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/action" />-->
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,15 +34,6 @@
         android:id="@+id/tel"/>
 
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act1"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_marginLeft="79dp"-->
-<!--        android:layout_marginTop="70dp"-->
-<!--        android:layout_toRightOf="@+id/act"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/comedy" />-->
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,15 +46,7 @@
         android:textStyle="bold"
         android:id="@+id/tel1"/>
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act2"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_below="@+id/act1"-->
-<!--        android:layout_marginLeft="19dp"-->
-<!--        android:layout_marginTop="64dp"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/thriller" />-->
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,15 +59,7 @@
         android:textStyle="bold"
         android:id="@+id/tel2"/>
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act3"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_marginLeft="74dp"-->
-<!--        android:layout_marginTop="285dp"-->
-<!--        android:layout_toRightOf="@+id/act2"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/horror" />-->
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -105,15 +72,6 @@
         android:textStyle="bold"
         android:id="@+id/tel3"/>
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act4"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_marginLeft="20dp"-->
-<!--        android:layout_marginTop="60dp"-->
-<!--        android:layout_below="@+id/act3"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/christian" />-->
 
     <TextView
         android:layout_width="wrap_content"
@@ -126,15 +84,6 @@
         android:textStyle="bold"
         android:id="@+id/tel4"/>
 
-<!--    <ImageView-->
-<!--        android:id="@+id/act5"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="150dp"-->
-<!--        android:layout_marginLeft="68dp"-->
-<!--        android:layout_marginTop="495dp"-->
-<!--        android:layout_toRightOf="@+id/act4"-->
-<!--        android:scaleType="fitXY"-->
-<!--        android:src="@drawable/romance" />-->
 
     <TextView
         android:layout_width="wrap_content"
