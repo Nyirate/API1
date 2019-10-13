@@ -16,7 +16,7 @@
         android:textColor="@color/che"
         android:textSize="40dp"
         android:layout_weight="1"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         app:fontFamily="@font/biorhyme_extrabold" />
 
 <!--    <ImageView-->
