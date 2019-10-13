@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 
 public class MoviesActivityArrayAdapter extends BaseAdapter {
     private Context mContext;
@@ -36,15 +37,15 @@ public class MoviesActivityArrayAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        LayoutInflater val = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View emma = convertView;
         if (emma == null) {
-            LayoutInflater val = (LayoutInflater).mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            emma=val.inflate(R.layout.activity_movies,null);
+          emma = val.inflate(R.layout.activity_movies, null);
         }
+        ImageView all = (ImageView)emma.findViewById(R.id.act);
 
         return null;
     }
-    //    private String[] mAuthors;
 
 }
 
