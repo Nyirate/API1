@@ -8,12 +8,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mWatch;
-    private EditText mGoEditText;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         mWatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String go = mGoEditText.getText().toString();
-                Log.d(TAG, go);
                 Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
                 startActivity(intent);
 
