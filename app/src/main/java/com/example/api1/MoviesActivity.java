@@ -17,8 +17,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MoviesActivity extends AppCompatActivity {
-    @BindView(R.id.grid)
     GridView gridView;
+    private String[] types = new String[]{"Action", "Comedy ", "Thriller", "Horror", "Christian", "Romance"};
     private int [] images = {R.drawable. action,
                              R.drawable. comedy,
                              R.drawable. thriller,
@@ -26,17 +26,13 @@ public class MoviesActivity extends AppCompatActivity {
                              R.drawable. christian,
                              R.drawable. romance
     };
-    private String[] types = new String[]{"Action", "Comedy ", "Thriller", "Horror", "Christian", "Romance"};
-    @Nullable // use annotation from support library.
-    @BindView(R.id.act)
-    ImageView img;
-   @BindView(R.id.tel)
-    TextView text;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies);
-        ButterKnife.bind(this);
         gridView=(GridView)findViewById(R.id.grid);
         MoviesActivityArrayAdapter MoviesActivityArrayAdapter = new MoviesActivityArrayAdapter(MoviesActivity.this, types, images);
         gridView.setAdapter(MoviesActivityArrayAdapter);

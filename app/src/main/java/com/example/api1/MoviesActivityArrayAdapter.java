@@ -40,15 +40,16 @@ public class MoviesActivityArrayAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater val = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
         View emma = convertView;
         if (emma == null) {
+            LayoutInflater val = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
           emma = val.inflate(R.layout.activity_movies, null);
         }
+//        TextView text = (TextView)emma.findViewById(R.id.tel);
+//        text.setText(mTypes[position]);
         ImageView img = (ImageView)emma.findViewById(R.id.act);
-        TextView text = (TextView)emma.findViewById(R.id.tel);
         img.setImageResource(images[position]);
-        text.setText(mTypes[position]);
 
         return emma;
     }
