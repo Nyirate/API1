@@ -31,7 +31,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel"/>
+        android:id="@+id/tel"
+        app:fontFamily="@font/cormorant"/>
 
 
 
@@ -44,7 +45,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel1"/>
+        android:id="@+id/tel1"
+        app:fontFamily="@font/cormorant"/>
 
 
 
@@ -57,7 +59,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel2"/>
+        android:id="@+id/tel2"
+        app:fontFamily="@font/cormorant"/>
 
 
 
@@ -70,7 +73,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel3"/>
+        android:id="@+id/tel3"
+        app:fontFamily="@font/cormorant"/>
 
 
     <TextView
@@ -82,7 +86,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel4"/>
+        android:id="@+id/tel4"
+        app:fontFamily="@font/cormorant"/>
 
 
     <TextView
@@ -94,7 +99,8 @@
         android:textColor="@color/twin"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:id="@+id/tel5"/>
+        android:id="@+id/tel5"
+        app:fontFamily="@font/cormorant"/>
 
 
 

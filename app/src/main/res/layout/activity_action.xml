@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,7 +23,8 @@
     android:text="Wonder Woman"
     android:textSize="20dp"
     android:layout_marginTop="110dp"
-    android:layout_marginLeft="60dp"/>
+    android:layout_marginLeft="60dp"
+       app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/three"
@@ -31,7 +33,8 @@
         android:text="Avengers Endgame"
         android:textSize="20dp"
         android:layout_marginTop="150dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/four"
@@ -40,7 +43,8 @@
         android:text="Aquaman"
         android:textSize="20dp"
         android:layout_marginTop="190dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/five"
@@ -49,7 +53,8 @@
         android:text="American Made"
         android:textSize="20dp"
         android:layout_marginTop="230dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/six"
@@ -58,7 +63,8 @@
         android:text="The City of Madness"
         android:textSize="20dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/seven"
@@ -67,7 +73,8 @@
         android:text="Hobs and Shaw"
         android:textSize="20dp"
         android:layout_marginTop="310dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/eight"
@@ -76,7 +83,8 @@
         android:text="Top Gun"
         android:textSize="20dp"
         android:layout_marginTop="350dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/nine"
@@ -85,7 +93,8 @@
         android:text="Street Fighter"
         android:textSize="20dp"
         android:layout_marginTop="390dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/ten"
@@ -94,7 +103,8 @@
         android:text="Master"
         android:textSize="20dp"
         android:layout_marginTop="430dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
     <TextView
         android:id="@+id/one"
@@ -103,7 +113,8 @@
         android:text="Fearless"
         android:textSize="20dp"
         android:layout_marginTop="470dp"
-        android:layout_marginLeft="60dp"/>
+        android:layout_marginLeft="60dp"
+        app:fontFamily="@font/cormorant"/>
 
 
 
