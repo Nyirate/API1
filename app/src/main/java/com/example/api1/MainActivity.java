@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         mWatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainActivity.this, MoviesActivity.class);
+                startActivity(intent1);
 
             }
 

@@ -15,7 +15,12 @@
             android:value="com.example.api1.MainActivity">
         </meta-data>
         </activity>
-
+        <activity android:name=".ActionActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.api1.MoviesActivity">
+            </meta-data>
+        </activity>
         <activity android:name=".MainActivity"
             android:theme="@style/NoActionBarTheme">
             <intent-filter>
