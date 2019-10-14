@@ -3,6 +3,7 @@ package com.example.api1;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,6 +26,8 @@ public class ActionActivity extends AppCompatActivity {
         mAct = (TextView) findViewById(R.id.nine);
         mAct = (TextView) findViewById(R.id.ten);
         mAct = (TextView) findViewById(R.id.one);
+
+        Toast.makeText(ActionActivity.this, "Action", Toast.LENGTH_LONG).show();
 
     }
 }

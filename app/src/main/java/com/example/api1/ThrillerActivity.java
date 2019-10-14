@@ -3,6 +3,7 @@ package com.example.api1;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,6 +26,8 @@ public class ThrillerActivity extends AppCompatActivity {
         mAct1 = (TextView) findViewById(R.id.nine);
         mAct1 = (TextView) findViewById(R.id.ten);
         mAct1 = (TextView) findViewById(R.id.one);
+
+        Toast.makeText(ThrillerActivity.this, "Thriller", Toast.LENGTH_LONG).show();
 
     }
 }

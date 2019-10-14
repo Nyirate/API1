@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent1 = new Intent(MainActivity.this, MoviesActivity.class);
                 startActivity(intent1);
 
+                Toast.makeText(MainActivity.this, "Watch", Toast.LENGTH_LONG).show();
             }
 
         });
