@@ -3,7 +3,7 @@ by Emma NYIRATE
 
 # Project Description
 
-WildLife Tracker project is an independent project where one is required to report news about animals,their names,species,age,location and health;that those in charge can find them and take good care of them.
+AP1 project is an independent project where one is required to report news about Movies,their names,types as we continue we will be adding new features
 
 # Setup/Installation Requirements
 Android
