@@ -8,7 +8,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.api1.R;
-
 public class ActionActivity extends AppCompatActivity {
     private TextView mAct;
     @Override
